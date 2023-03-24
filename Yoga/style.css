@@ -1,18 +1,3 @@
-/* 
-Aqui estou configurando o tema WP colocando um nome e 
-tudo mais, isso desceve as funcoes basica de um tema
-
-Essas informações são importantes para ajudar os usuários a 
-entender o que o tema faz e quais recursos e requisitos ele tem.
-
-Por exemplo, a descrição informa que o tema é projetado para aproveitar ao máximo o 
-editor de blocos do WordPress, que as organizações e empresas podem criar páginas de
- destino dinâmicas com layouts infinitos usando os blocos
-de grupo e coluna e que a tipografia ajustada é perfeita para blogs tradicionai
-
-GNU v2 ou posterior, que é uma licença de software livre que permite que os usuários 
-modifiquem e distribuam o código-fonte do tema.
-*/
 
 /*
 Theme Name:     Yoga
@@ -48,6 +33,14 @@ Use it to make something cool, have fun, and share what you've learned with othe
     padding-right: 16px;
     
 }
+
+/* -------------------
+  Add estilo nas grade dos planos
+  ------------------------------- */
+  .grade-planos{
+    border-radius: 50px;
+    margin-left:30px;
+  }
 /*-------------------------------------*/
 /* Deixando o site responsivo para outras tela
 /*-------------------------------------*/ 
@@ -56,3 +49,4 @@ Use it to make something cool, have fun, and share what you've learned with othe
       flex-direction: column-reverse;
     }
   }
+
